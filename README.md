@@ -29,6 +29,9 @@ test_stat, pvalue = mannwhitneyu(df.loc[df["smoker"] == "Yes", "total_bill"],
 
 4. Interpret results based on p-value
 
+A P-value less than 0.05 is deemed to be statistically significant, meaning the null hypothesis should be rejected in such a case.
+
+
 ![image](https://user-images.githubusercontent.com/121626776/224809792-b50548b2-8f2c-41fa-b041-1145e48f7227.png)
 
 
@@ -43,7 +46,7 @@ Proportions_ztest can be used.
 
 It is used to compare the mean of more than two groups.
 
-- Assumptions provided: one way anova
+- Assumptions provided: one way anova **(f_oneway)**
 
 - If assumptions are not provided: the kruskal algorithm
 
