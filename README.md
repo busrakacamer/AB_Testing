@@ -8,7 +8,7 @@ As for the group averages;
 1. Establish Hypotheses
 2. Assumption Check
 - 1. Normality Assumption --> the distributions of the relevant groups are normal. **(test with shapiro)**
-<img src="https://user-images.githubusercontent.com/121626776/224813646-3e28f912-e804-40ec-b886-f879e2224318.png" width="400" >
+<img src="https://user-images.githubusercontent.com/121626776/224813646-3e28f912-e804-40ec-b886-f879e2224318.png" width="500" >
 
 
 - 2. Variance Homogeneity --> the distribution of variances of the two groups is similar to each other. **(test with levene)** 
