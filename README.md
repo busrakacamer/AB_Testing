@@ -8,7 +8,7 @@ As for the group averages;
 1. Establish Hypotheses
 2. Assumption Check
 - 1. Normality Assumption --> the distributions of the relevant groups are normal. **(test with shapiro)**
-![image](https://user-images.githubusercontent.com/121626776/224813646-3e28f912-e804-40ec-b886-f879e2224318.png)
+<img src="https://user-images.githubusercontent.com/121626776/224813646-3e28f912-e804-40ec-b886-f879e2224318.png" width="400" >
 
 
 - 2. Variance Homogeneity --> the distribution of variances of the two groups is similar to each other. **(test with levene)** 
@@ -33,15 +33,14 @@ test_stat, pvalue = mannwhitneyu(df.loc[df["smoker"] == "Yes", "total_bill"],
 
 A P-value less than 0.05 is deemed to be statistically significant, meaning the null hypothesis should be rejected in such a case.
 
-
-![image](https://user-images.githubusercontent.com/121626776/224809792-b50548b2-8f2c-41fa-b041-1145e48f7227.png)
+<img src="https://user-images.githubusercontent.com/121626776/224809792-b50548b2-8f2c-41fa-b041-1145e48f7227.png" width="400" >
 
 
 ### Two Sample Ratio Test
 
 Proportions_ztest can be used.
 
-![image](https://user-images.githubusercontent.com/121626776/224810304-b0888f37-55a8-40c7-8032-e59cf74db6a2.png)
+<img src="https://user-images.githubusercontent.com/121626776/224810304-b0888f37-55a8-40c7-8032-e59cf74db6a2.png" width="400" >
 
 
 ### ANOVA (Analysis of Variance)
@@ -52,7 +51,7 @@ It is used to compare the mean of more than two groups.
 
 - If assumptions are not provided: the kruskal algorithm
 
-![Ekran görüntüsü 2023-03-13 222900](https://user-images.githubusercontent.com/121626776/224814379-f6fd49be-b082-4ee2-a157-efe24d8ab86a.png)
+<img src="https://user-images.githubusercontent.com/121626776/224814379-f6fd49be-b082-4ee2-a157-efe24d8ab86a.png" width="200" >
 
-![image](https://user-images.githubusercontent.com/121626776/224814639-bce63911-e894-40ed-a9f8-66b2bd222ec2.png)
+<img src="https://user-images.githubusercontent.com/121626776/224814639-bce63911-e894-40ed-a9f8-66b2bd222ec2.png" width="200" >
 
