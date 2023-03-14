@@ -11,7 +11,8 @@ As for the group averages;
 <img src="https://user-images.githubusercontent.com/121626776/224813646-3e28f912-e804-40ec-b886-f879e2224318.png" width="500" >
 
 
-- 2. Variance Homogeneity --> the distribution of variances of the two groups is similar to each other. **(test with levene)** 
+- 2. Variance Homogeneity --> the distribution of variances of the two groups is similar to each other. **(test with levene)**
+
 <img src="https://user-images.githubusercontent.com/121626776/225084895-0d4ad724-25be-4d32-9e88-3a1e116e8280.png" width="300" >
 
 
