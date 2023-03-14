@@ -12,6 +12,8 @@ As for the group averages;
 
 
 - 2. Variance Homogeneity --> the distribution of variances of the two groups is similar to each other. **(test with levene)** 
+<img src="https://user-images.githubusercontent.com/121626776/225084895-0d4ad724-25be-4d32-9e88-3a1e116e8280.png" width="300" >
+
 
 3. Application of the Hypothesis
 - 1. If assumptions are met: independent two-sample t-test (parametric test)
